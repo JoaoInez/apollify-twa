@@ -20,7 +20,7 @@ apply plugin: 'com.android.application'
 
 def twaManifest = [
     applicationId: 'com.apollify.twa',
-    hostName: 'apollify.com', // The domain being opened in the TWA.
+    hostName: 'www.apollify.com', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Apollify', // The name shown on the Android Launcher.
     themeColor: '#4a148c', // The color used for the status bar.
